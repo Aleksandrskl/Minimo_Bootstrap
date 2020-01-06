@@ -5,7 +5,7 @@ body {
 }
 
 img {
-	max-width: 1%;
+	max-width: 100%;
 	height: auto;
 	vertical-align: bottom;
 }
@@ -43,4 +43,8 @@ a:hover {
 	font-weight: 400;
 	color: #000000;
 	font-family: "Inconsolata", "Arial", monospace;
+}
+
+.slider {
+	margin-bottom: 50px;
 }
