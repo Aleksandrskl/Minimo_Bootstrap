@@ -1,0 +1,46 @@
+body {
+	font-size: 14px;
+	font-family: "Playfair Display", "Arial", sans-serif;
+	color: #626262;
+}
+
+img {
+	max-width: 1%;
+	height: auto;
+	vertical-align: bottom;
+}
+
+a {
+	color: #b4ad9e;
+}
+
+a:hover {
+	color: #898377;
+}
+
+.nav-link {
+	text-transform: uppercase;
+	margin-left: 100px;
+}
+
+.nav-link::after {
+	content: "";
+	display: block;
+	width: 100%;
+	height: 1px;
+	background-color: #cccccc;
+	transform: scale(0); 
+	transition: all 0.3s;
+}
+
+.nav-link:hover::after {
+	transform: scale(1); 
+}
+
+.navbar-brand {
+	text-transform: uppercase;
+	font-size: 30px;
+	font-weight: 400;
+	color: #000000;
+	font-family: "Inconsolata", "Arial", monospace;
+}
