@@ -45,6 +45,10 @@ a:hover {
 	font-family: "Inconsolata", "Arial", monospace;
 }
 
+.navbar-toggler {
+	outline: none;
+}
+
 .slider {
 	margin-bottom: 50px;
 }
@@ -90,4 +94,98 @@ a:hover {
 
 .load-more span {
 	display: none;
+}
+
+.signup h2{
+	color: #333333;
+	font-size: 30px;
+	font-weight: 400;
+}
+
+.signup {
+	background-color: #f0f0f0;
+	padding: 70px 0;
+}
+
+.signup form {
+	margin-top: 70px;
+}
+
+.form-input {
+	position: relative;
+}
+
+.form-control {
+	border: 0;
+	border-bottom: 1px solid #000000;
+	border-radius: 0;
+	background-color: transparent;
+}
+
+.form-control:focus {
+	box-shadow: none;
+	background-color: transparent;
+	border: 0;
+	border-bottom: 1px solid #000000;
+}
+
+.form-input .btn{
+	position: absolute;
+	outline: none;
+	padding: 0;
+	font-size: 25px;
+	right: 0;
+	top: -5px;
+}
+
+footer {
+	background-color: #bec0c2;
+}
+
+.footer-wrapper {
+	padding: 40px 0;
+}
+
+.footer-left {
+	width: 200px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.footer-wrapper a,
+.footer-wrapper span {
+	color: #000000;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 24px;
+}
+
+.footer-right {
+	width: 150px;
+	display: flex;
+	justify-content: space-between;
+}
+
+
+@media only screen and (max-width: 767px) {
+	.grit-posts {
+		margin-top: 50px;
+		margin-bottom: 50px;
+	}
+
+	.grit-posts .card{
+		margin-bottom: 50px;
+	}
+}
+
+@media only screen and (max-width: 991px) {
+	.nav-link {
+		margin-left: 0;
+	}
+}
+
+@media only screen and (max-width: 575px) {
+	.footer-left {
+		margin-bottom: 10px;
+	}
 }
